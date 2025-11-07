@@ -1,0 +1,71 @@
+#-----------------------------------------------
+# Doxyfile para el proyecto PRT-7 Decoder
+#-----------------------------------------------
+
+# Nombre del proyecto
+PROJECT_NAME           = "Decodificador de Protocolo Industrial (PRT-7)"
+PROJECT_BRIEF          = "Caso de Estudio de Ingeniería de Software - Decodificador de Tramas Industriales"
+PROJECT_NUMBER         = 1.0
+OUTPUT_DIRECTORY       = docs
+
+# Archivos de entrada
+INPUT                  = src
+FILE_PATTERNS          = *.cpp *.h *.ino
+RECURSIVE              = NO
+
+# Lenguaje
+OUTPUT_LANGUAGE        = Spanish
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+# Documentación en formato HTML y PDF
+GENERATE_HTML          = YES
+GENERATE_LATEX         = YES
+GENERATE_RTF           = NO
+GENERATE_MAN           = NO
+GENERATE_XML           = NO
+
+# Directorios de salida
+HTML_OUTPUT            = html
+LATEX_OUTPUT           = latex
+
+# Incluye los diagramas de clases
+HAVE_DOT               = YES
+CLASS_DIAGRAMS         = YES
+DOT_IMAGE_FORMAT       = png
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+DOT_TRANSPARENT        = YES
+DOT_MULTI_TARGETS      = YES
+DOT_CLEANUP            = YES
+
+# Información del autor
+PROJECT_LOGO           = 
+ALIASES                = author="Autor: Irving & Said"
+TAB_SIZE               = 4
+
+# Mostrar archivos y clases
+SHOW_FILES             = YES
+SHOW_NAMESPACES        = YES
+SHOW_USED_FILES        = YES
+INLINE_SOURCES         = YES
+
+# Colores y estilo
+HTML_COLORSTYLE_HUE    = 220
+HTML_COLORSTYLE_SAT    = 100
+HTML_COLORSTYLE_GAMMA  = 80
+
+# Documentación Markdown
+MARKDOWN_SUPPORT       = YES
+AUTOLINK_SUPPORT       = YES
+
+# Salida limpia
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_FORMAT            = "$file:$line: $text"
+
+#-----------------------------------------------
+# FIN DEL ARCHIVO DOXYFILE
+#-----------------------------------------------
